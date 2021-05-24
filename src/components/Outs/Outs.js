@@ -17,15 +17,11 @@ import {useState} from 'react'
             setOuts(0)
         }
     }
-    const reset = () => {
-        setOuts(0)
-    }
 
     return (
         <div className='Outs'>
             <h3>Outs: {outs}</h3>
             <button class='button1' onClick={increment}>+1</button>
-            <button class='button2' onClick={reset}>Reset Outs</button>
             <button class='button3' onClick={decrement}>-1</button>
         </div>
     )
