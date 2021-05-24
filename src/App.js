@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header'
 import Outs from './components/Outs/Outs'
 import Balls from './components/Balls/Balls'
+import Strikes from './components/Strikes/Strikes'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Outs />
       <Balls />
+      <Strikes />
     </div>
   );
 }
