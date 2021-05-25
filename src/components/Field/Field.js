@@ -12,13 +12,6 @@ function Field () {
     <div id="home-plate">
       <div className="action-area"></div>
     </div>
-    <button onClick={() => activeClass === true ? setClass(false) : setClass(true)} style={{"background-color": activeClass ? "yellow" : "white"}} id="first-base">
-    </button>
-    <button onClick={() => activeClass === true ? setClass(false) : setClass(true)} style={{"background-color": activeClass ? "yellow" : "white"}} id="second-base">
-    </button>
-    <button onClick={() => activeClass === true ? setClass(false) : setClass(true)} style={{"background-color": activeClass ? "yellow" : "white"}} id="third-base">
-    </button>
-    <div className="home-plate-pulse pulse"></div>
     <div id="base-lines"></div>
     <div id="pitchers-mound"></div>
     <div id="pitchers-plate"></div>
@@ -27,7 +20,6 @@ function Field () {
     <div id="third-circle" className="half-circle"></div>
     <div id="batters-box-right" className="batters-box"></div>
     <div id="batters-box-left" className="batters-box"></div>
-    <div id="first-base-thing"></div>
 </div>
     )
 }

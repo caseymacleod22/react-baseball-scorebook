@@ -5,6 +5,9 @@ import Balls from './components/Balls/Balls'
 import Strikes from './components/Strikes/Strikes'
 import Scoreboard from './components/Scoreboard/Scoreboard'
 import Field from './components/Field/Field'
+import FirstBase from './components/FirstBase/FirstBase'
+import SecondBase from './components/SecondBase/SecondBase'
+import ThirdBase from './components/ThirdBase/ThirdBase'
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Balls />
         <Strikes />
         <Field />
+        <FirstBase />
+        <SecondBase />
+        <ThirdBase />
     </div>
   );
 }
