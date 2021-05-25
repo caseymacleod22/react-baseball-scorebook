@@ -3,7 +3,15 @@ import Header from './components/Header/Header'
 import Outs from './components/Outs/Outs'
 import Balls from './components/Balls/Balls'
 import Strikes from './components/Strikes/Strikes'
-import Scoreboard from './components/Scoreboard/Scoreboard'
+import FirstInning from './components/FirstInning/FirstInning'
+import SecondInning from './components/SecondInning/SecondInning'
+import ThirdInning from './components/ThirdInning/ThirdInning'
+import FourthInning from './components/FourthInning/FourthInning'
+import FifthInning from './components/FifthInning/FifthInning'
+import SixthInning from './components/SixthInning/SixthInning'
+import SeventhInning from './components/SeventhInning/SeventhInning'
+import EigthInning from './components/EigthInning/EightInning'
+import NinthInning from './components/NinthInning/NinthInning'
 import Field from './components/Field/Field'
 import FirstBase from './components/FirstBase/FirstBase'
 import SecondBase from './components/SecondBase/SecondBase'
@@ -14,19 +22,21 @@ function App() {
     <div className="App">
       <Header />
       <div className='container'>
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-          <Scoreboard />
-        </div>
+          <FirstInning />
+          <SecondInning />
+          <ThirdInning />
+          <FourthInning />
+          <FifthInning />
+          <SixthInning />
+          <SeventhInning />
+          <EigthInning />
+          <NinthInning />
+      </div>
+      <div className='outsandcount'>
         <Outs />
         <Balls />
         <Strikes />
+      </div>  
         <Field />
         <FirstBase />
         <SecondBase />
