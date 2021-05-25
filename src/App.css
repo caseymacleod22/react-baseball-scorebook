@@ -13,3 +13,234 @@
   width: 40px;
   height: 40px;
 }
+
+
+
+#field{ 
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top:-110px;
+  left:145px;
+  height:700px;
+  width:700px;
+  border-radius:1% 100% 1% 1%;
+  border:1px solid green;
+  background-color:green;
+ -webkit-transform: rotate(-45deg);
+}
+#in-field{ 
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top:170px;
+  left:265px;
+  height:450px;
+  width:450px;
+  border-radius:1% 50% 1% 1%;
+  border:1px solid #836539; /*#9b7653; */
+  background-color:#836539; /*#9b7653;*/
+ -webkit-transform: rotate(-45deg);
+}
+#base-lines{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top: -120px;
+  left: 155px;
+  height:670px;
+  width:670px;
+  border-left:2px solid white;
+  border-bottom:2px solid white;
+  -webkit-transform: rotate(-45deg);
+}
+#in-field-grass{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top: 330px;
+  left: 359px;
+  height:260px;
+  width:260px;
+  border:2px solid green;
+  background-color:green;
+  -webkit-transform: rotate(-45deg);
+}
+.base{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  height:13px;
+  width:13px;
+  -webkit-transform: rotate(-45deg);
+  border:1px solid white;
+  background-color:white;
+  z-index: 1000;
+}
+#first-base{
+  top:450px;
+  left:706px;
+  background-color: white;
+}
+#second-base{
+  top:231px;
+  left:484px;
+  background-color: white;
+}
+#thrid-base{
+  top:450px;
+  left:262px;
+  background-color: white;
+}
+
+#first-base:hover, #second-base:hover, #third-base:hover {
+  cursor: pointer;
+}
+
+#first-base:click, #second-base:click, #third-base:click {
+  background-color: rgb(230, 230, 125);
+}
+
+#home-plate{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  height:7px;
+  width:13px;
+  top:678px;
+  left:485px;
+  border:1px solid white;
+  background-color:white;
+}
+#home-plate:before, #home-plate:after{
+top: 100%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+#home-plate:before{
+border-top-color:white;
+border-width: 8px;
+left: 50%;
+margin-left: -9.5px;
+}
+.home-plate-pulse{
+  /* Copy position attributes from #home-plate.
+     Needs to be separate to allow batters boxes to cover edges of home plate */
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  height:7px;
+  width:13px;
+  top:678px;
+  left:485px;
+}
+#pitchers-mound{ 
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top:420px;
+  left:450px;
+  height:80px;
+  width:80px;
+  border-radius:100% 100% 100% 100%;
+  -webkit-transform: rotate(-45deg);
+   border:1px solid #836539;
+  background-color:#836539;
+}
+#pitchers-plate{ 
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top:458px;
+  left:482px;
+  height:5px;
+  width:16px;
+  border:1px solid white;
+  background-color:white;
+}
+#vertical{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top:14px;
+  left:491px;
+  height:1115px;
+  width:1px;
+  border-left:1px solid black;
+}
+.half-circle{    
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  height:40px;
+  width: 40px;
+  -webkit-transform: rotate(-45deg);
+  border:1px solid #836539;
+  background-color:#836539;
+}
+#third-circle{
+  top:440px;
+  left:300px;
+  border-radius:1% 1% 100% 1%;
+}
+#first-circle{
+  top:440px;
+  left:642px;
+  border-radius:100% 1% 1% 1%;
+}
+#second-circle{
+  top:275px;
+  left:470px;
+  border-radius:1% 1% 1% 100%;
+}
+.batters-box{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  height:25px;
+  width: 15px;
+  border:2px solid white;
+  background-color:#836539;
+    /*-6px 6px red,
+    -6px -6px red,
+    6px -6px red;*/
+  opacity: 1.0; /* Needed so that opacity for pulse doesn't cause issues */
+  top: 670px;
+}
+#batters-box-right{
+  box-shadow: 6px 0 #836539; /* Cover up the base line */
+  left:461px;
+}
+#batters-box-left{
+box-shadow: -6px 0 #836539; /* Cover up the base line */
+  left:503px;
+}
+#batting-circle{ 
+  position:absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+  top:634px;
+  left:440px;
+  height:100px;
+  width:100px;
+  border-radius:100% 100% 100% 100%;
+ -webkit-transform: rotate(-45deg);
+   border:1px solid #836539;
+  background-color:#836539;
+}
+
+
+
+.action-area{
+  position: relative;
+  z-index: 2000;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin: -50px;
+}
+

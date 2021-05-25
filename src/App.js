@@ -4,6 +4,7 @@ import Outs from './components/Outs/Outs'
 import Balls from './components/Balls/Balls'
 import Strikes from './components/Strikes/Strikes'
 import Scoreboard from './components/Scoreboard/Scoreboard'
+import Field from './components/Field/Field'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Outs />
         <Balls />
         <Strikes />
+        <Field />
     </div>
   );
 }
