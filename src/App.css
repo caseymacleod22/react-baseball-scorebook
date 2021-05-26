@@ -24,10 +24,8 @@
 
 #field{ 
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top:-110px;
-  left:145px;
+  top:400px;
+  left:465px;
   height:350px;
   width:350px;
   border-radius:1% 100% 1% 1%;
@@ -37,10 +35,8 @@
 }
 #in-field{ 
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top: 30px;
-  left:208px;
+  top: 530px;
+  left:528px;
   height:225px;
   width:225px;
   border-radius:1% 50% 1% 1%;
@@ -50,20 +46,18 @@
 }
 #base-lines{
   position:absolute;
-  top: 165px;
-  left: 239px;
+  top: 324px;
+  left: 442px;
   height:420px;
-  width:420px;
+  width:340px;
   border-left:2px solid white;
   border-bottom:2px solid white;
   -webkit-transform: rotate(-45deg);
 }
 #in-field-grass{
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top: 97px;
-  left: 255px;
+  top: 617px;
+  left: 575px;
   height:130px;
   width:130px;
   border:2px solid green;
@@ -72,12 +66,10 @@
 }
 
 #first-base{
-  top: 155px;
-  left:433px;
+  top: 670px;
+  left:750px;
   background-color: white;
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
   height:13px;
   width:13px;
   -webkit-transform: rotate(-45deg);
@@ -86,12 +78,10 @@
   z-index: 1000;
 }
 #second-base{
-  top:55px;
-  left:315.5px;
+  top:570px;
+  left:635px;
   background-color: white;
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
   height:8px;
   width:8px;
   -webkit-transform: rotate(-45deg);
@@ -100,12 +90,10 @@
   z-index: 1000;
 }
 #third-base{
-  top:161px;
-  left:202px;
+  top: 675px;
+  left:525px;
   background-color: white;
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
   height:13px;
   width:13px;
   -webkit-transform: rotate(-45deg);
@@ -121,12 +109,10 @@
 
 #home-plate{
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
   height:7px;
   width:13px;
-  top:265px;
-  left:318px;
+  top:775px;
+  left:636px;
   /* border:1px solid white; */
   /* background-color:white; */
 }
@@ -148,10 +134,8 @@ margin-left: -9.5px;
 
 #pitchers-mound{ 
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top:140px;
-  left:297px;
+  top: 652px;
+  left: 617.5px;
   height: 50px;
   width: 50px;
   border-radius:100% 100% 100% 100%;
@@ -161,29 +145,16 @@ margin-left: -9.5px;
 }
 #pitchers-rubber{ 
   position: absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top: 163px;
-  left: 313.5px;
+  top: 674px;
+  left: 634.5px;
   height: 5px;
   width: 16px;
   border: 1px solid white;
   background-color:white;
 }
-#vertical{
-  position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top:14px;
-  left:491px;
-  height:1115px;
-  width:1px;
-  border-left:1px solid black;
-}
+
 .half-circle{    
   position:absolute;
-  margin-top: 15%;
-  margin-left: 10px;
   height:20px;
   width: 20px;
   -webkit-transform: rotate(-45deg);
@@ -191,24 +162,22 @@ margin-left: -9.5px;
   background-color:#836539;
 }
 #third-circle{
-  top:346px;
-  left:341px;
+  top:674px;
+  left:544px;
   border-radius:1% 1% 100% 1%;
 }
 #first-circle{
-  top:345px;
-  left:518px;
+  top:672px;
+  left:718px;
   border-radius:100% 1% 1% 1%;
 }
 #second-circle{
-  top:257px;
-  left:429px;
+  top:590px;
+  left:629px;
   border-radius:1% 1% 1% 100%;
 }
 .batters-box{
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
   height:25px;
   width: 15px;
   border:2px solid white;
@@ -221,24 +190,22 @@ margin-left: -9.5px;
 }
 #batters-box-right{
   box-shadow: 1px 0 #836539; /* Cover up the base line */
-  top: 268px;
-  left:303px;
-  height: 25px;;
-  width: 12px;
+  top: 785px;
+  left:625px;
+  /* height: 25px;; */
+  width: 8px;
 }
 #batters-box-left{
 box-shadow: -1px 0 #836539; /* Cover up the base line */
-  top: 268px;
-  left:327px;
-  height: 25px;
-  width: 12px;
+  top: 785px;
+  left:647px;
+  /* height: 25px; */
+  width: 8px;
 }
 #batting-circle{ 
   position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  top:245px;
-  left:287.5px;
+  top:765px;
+  left:606px;
   height:70px;
   width:70px;
   border-radius:100% 100% 100% 100%;
