@@ -32,10 +32,12 @@ function App() {
           <EigthInning />
           <NinthInning />
       </div>
-      <div className='outsandcount'>
-        <Balls />
-        <Strikes />
-        <Outs />
+        <div className='outscontainer'>
+          <div className='outsandcount'>
+            <Balls />
+            <Strikes />
+            <Outs />
+          </div>
       </div>  
         <Field />
         <FirstBase />

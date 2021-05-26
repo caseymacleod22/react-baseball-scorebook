@@ -19,7 +19,7 @@ function Balls () {
     }
 
     return (
-        <div>
+        <div id='balls'>
             <h3>Balls: {balls}</h3>
             <button className='button4' onClick={increment}>+1</button>
             <button className='button5' onClick={decrement}>-1</button>

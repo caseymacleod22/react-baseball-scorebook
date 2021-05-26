@@ -19,7 +19,7 @@ function Strikes () {
     }
 
     return (
-        <div>
+        <div id='strikes'>
             <h3>Strikes: {strikes}</h3>
             <button class='button6' onClick={increment}>+1</button>
             <button class='button7' onClick={decrement}>-1</button>

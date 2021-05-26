@@ -19,7 +19,7 @@ import {useState} from 'react'
     }
 
     return (
-        <div className='Outs'>
+        <div className='Outs' id='outs'>
             <h3>Outs: {outs}</h3>
             <button class='button1' onClick={increment}>+1</button>
             <button class='button3' onClick={decrement}>-1</button>
