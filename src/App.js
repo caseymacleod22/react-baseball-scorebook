@@ -33,9 +33,9 @@ function App() {
           <NinthInning />
       </div>
       <div className='outsandcount'>
-        <Outs />
         <Balls />
         <Strikes />
+        <Outs />
       </div>  
         <Field />
         <FirstBase />

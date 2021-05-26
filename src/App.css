@@ -9,6 +9,7 @@
 
 .scoreboard {
   display: flex;
+  justify-content: start;
   flex-direction: column;
   width: 40px;
   height: 40px;
@@ -28,8 +29,8 @@
   margin-left: 10%;
   top:-110px;
   left:145px;
-  height:700px;
-  width:700px;
+  height:350px;
+  width:350px;
   border-radius:1% 100% 1% 1%;
   border:1px solid green;
   background-color:green;
@@ -39,10 +40,10 @@
   position:absolute;
   margin-top: 30%;
   margin-left: 10%;
-  top:170px;
-  left:265px;
-  height:450px;
-  width:450px;
+  top: 30px;
+  left:208px;
+  height:225px;
+  width:225px;
   border-radius:1% 50% 1% 1%;
   border:1px solid #836539; /*#9b7653; */
   background-color:#836539; /*#9b7653;*/
@@ -52,10 +53,10 @@
   position:absolute;
   margin-top: 30%;
   margin-left: 10%;
-  top: -120px;
-  left: 155px;
-  height:670px;
-  width:670px;
+  top: -75px;
+  left: 172px;
+  height:285px;
+  width:335px;
   border-left:2px solid white;
   border-bottom:2px solid white;
   -webkit-transform: rotate(-45deg);
@@ -64,18 +65,18 @@
   position:absolute;
   margin-top: 30%;
   margin-left: 10%;
-  top: 330px;
-  left: 359px;
-  height:260px;
-  width:260px;
+  top: 97px;
+  left: 255px;
+  height:130px;
+  width:130px;
   border:2px solid green;
   background-color:green;
   -webkit-transform: rotate(-45deg);
 }
 
 #first-base{
-  top:450px;
-  left:706px;
+  top: 155px;
+  left:433px;
   background-color: white;
   position:absolute;
   margin-top: 30%;
@@ -88,22 +89,22 @@
   z-index: 1000;
 }
 #second-base{
-  top:231px;
-  left:484px;
+  top:43px;
+  left:314px;
   background-color: white;
   position:absolute;
   margin-top: 30%;
   margin-left: 10%;
-  height:13px;
-  width:13px;
+  height:8px;
+  width:8px;
   -webkit-transform: rotate(-45deg);
   border:1px solid white;
   background-color:white;
   z-index: 1000;
 }
 #third-base{
-  top:450px;
-  left:262px;
+  top:157px;
+  left:202px;
   background-color: white;
   position:absolute;
   margin-top: 30%;
@@ -147,17 +148,7 @@ border-width: 8px;
 left: 50%;
 margin-left: -9.5px;
 }
-.home-plate-pulse{
-  /* Copy position attributes from #home-plate.
-     Needs to be separate to allow batters boxes to cover edges of home plate */
-  position:absolute;
-  margin-top: 30%;
-  margin-left: 10%;
-  height:7px;
-  width:13px;
-  top:678px;
-  left:485px;
-}
+
 #pitchers-mound{ 
   position:absolute;
   margin-top: 30%;
@@ -171,7 +162,7 @@ margin-left: -9.5px;
    border:1px solid #836539;
   background-color:#836539;
 }
-#pitchers-plate{ 
+#pitchers-rubber{ 
   position:absolute;
   margin-top: 30%;
   margin-left: 10%;
