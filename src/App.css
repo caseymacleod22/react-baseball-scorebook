@@ -10,6 +10,7 @@
 
 .scoreboard {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   width: 40px;
   height: 40px;
@@ -17,15 +18,16 @@
 
 .outscontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .outsandcount {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: row;
-  margin-top: 50px;
-  margin-left: 37%;
+  /* margin-top: 50px;
+  margin-left: 37%; */
 }
 
 #balls, #strikes, #outs {
