@@ -1,4 +1,7 @@
 import '../../App.css'
+import FirstBase from '../FirstBase/FirstBase'
+import SecondBase from '../SecondBase/SecondBase'
+import ThirdBase from '../ThirdBase/ThirdBase'
 
 function Field () {
     return (
@@ -13,6 +16,9 @@ function Field () {
     <div id="base-lines"></div>
     <div id="pitchers-mound"></div>
     <div id="pitchers-rubber"></div>
+    <FirstBase />
+    <SecondBase />
+    <ThirdBase />
     <div id="first-circle" className="half-circle"></div>
     <div id="second-circle" className="half-circle"></div>
     <div id="third-circle" className="half-circle"></div>

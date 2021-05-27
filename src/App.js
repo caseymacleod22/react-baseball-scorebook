@@ -13,9 +13,9 @@ import SeventhInning from './components/SeventhInning/SeventhInning'
 import EigthInning from './components/EigthInning/EightInning'
 import NinthInning from './components/NinthInning/NinthInning'
 import Field from './components/Field/Field'
-import FirstBase from './components/FirstBase/FirstBase'
-import SecondBase from './components/SecondBase/SecondBase'
-import ThirdBase from './components/ThirdBase/ThirdBase'
+// import FirstBase from './components/FirstBase/FirstBase'
+// import SecondBase from './components/SecondBase/SecondBase'
+// import ThirdBase from './components/ThirdBase/ThirdBase'
 
 function App() {
   return (
@@ -40,9 +40,9 @@ function App() {
           </div>
       </div>  
         <Field />
-        <FirstBase />
+        {/* <FirstBase />
         <SecondBase />
-        <ThirdBase />
+        <ThirdBase /> */}
     </div>
   );
 }
