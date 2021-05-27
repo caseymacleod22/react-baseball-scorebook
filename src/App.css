@@ -22,6 +22,10 @@
   margin-top: 20px;
 }
 
+.outsandcount {
+  display: flex;
+}
+
 #balls, #strikes, #outs {
   padding-left: 20px;
   padding-right: 20px;
