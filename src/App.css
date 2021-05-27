@@ -71,7 +71,7 @@ left: 50%;
   position:relative;
   top: 50%;
   left: 50%;
-  margin-top: -146%;
+  margin-top: -138.5%;
   margin-left: -106.3%;
   height:420px;
   width:340px;
@@ -145,15 +145,21 @@ left: 50%;
 
 #home-plate{
   position:relative;
+  top:50%;
+  left:50%;
+  margin-top: -8%;
+  margin-left: -52%;
   height:7px;
   width:13px;
-  top:775px;
-  left:636px;
   /* border:1px solid white; */
   /* background-color:white; */
 }
 #home-plate:before, #home-plate:after{
-top: 20px;
+position: relative;
+top: 50%;
+left: 50%;
+margin-top: -50%;
+margin-left: -100%;
 border: solid transparent;
 content: " ";
 height: 0;
@@ -162,6 +168,11 @@ position: absolute;
 pointer-events: none;
 }
 #home-plate:before{
+position: relative;
+top: 50%;
+left: 50%;
+margin-top: -40%;
+margin-left: -80%;
 border-top-color:white;
 border-width: 8px;
 left: 50%;
@@ -185,7 +196,7 @@ margin-left: -9.5px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 12.9%;
+  margin-top: 4.5%;
   margin-left: -52.4%;
   height: 5px;
   width: 16px;
@@ -209,7 +220,7 @@ margin-left: -9.5px;
   position: relative;
   top:50%;
   left:50%;
-  margin-top: 17%;
+  margin-top: 18%;
   margin-left: -76%;
   border-radius:1% 1% 100% 1%;
 }
@@ -217,7 +228,7 @@ margin-left: -9.5px;
   position: relative;
   top:50%;
   left:50%;
-  margin-top: -48%;
+  margin-top: -47%;
   margin-left: -29%;
   border-radius:100% 1% 1% 1%;
 }
@@ -225,7 +236,7 @@ margin-left: -9.5px;
   position: relative;
   top:50%;
   left:50%;
-  margin-top: -28%;
+  margin-top: -30%;
   margin-left: -52.9%;
   border-radius:1% 1% 1% 100%;
 }
@@ -242,23 +253,27 @@ margin-left: -9.5px;
   top: 670px;
 }
 #batters-box-right{
-  box-shadow: 1px 0 #836539; /* Cover up the base line */
-  top: 785px;
-  left:625px;
-  /* height: 25px;; */
+  box-shadow: 1px 0 #836539;
+  top: 50%;
+  left:50%;
+  margin-top: 25%;
+  margin-left: -54%;
   width: 8px;
 }
 #batters-box-left{
-box-shadow: -1px 0 #836539; /* Cover up the base line */
-  top: 785px;
-  left:647px;
-  /* height: 25px; */
+  box-shadow: -1px 0 #836539;
+  top: 50%;
+  left: 50%;
+  margin-top: -8.2%;
+  margin-left: -48.5%;
   width: 8px;
 }
 #batting-circle{ 
   position:relative;
-  top:765px;
-  left:606px;
+  top:50%;
+  left:50%;
+  margin-top: 0%;
+  margin-left: -60%;
   height:70px;
   width:70px;
   border-radius:100% 100% 100% 100%;
