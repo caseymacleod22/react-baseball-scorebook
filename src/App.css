@@ -35,10 +35,18 @@
   padding-right: 20px;
 }
 
+#stadium {
+position: fixed;
+top: 50%;
+left: 50%;
+}
+
 #field{ 
-  position:absolute;
-  top:400px;
-  left:465px;
+  position:relative;
+  top:60%;
+  left:50%;
+  margin-top: -50%;
+  margin-left: -100%;
   height:350px;
   width:350px;
   border-radius:1% 100% 1% 1%;
@@ -47,9 +55,11 @@
  -webkit-transform: rotate(-45deg);
 }
 #in-field{ 
-  position:absolute;
-  top: 530px;
-  left:528px;
+  position:relative;
+  top: 60%;
+  left:50%;
+  margin-top: -61%;
+  margin-left: -82%;
   height:225px;
   width:225px;
   border-radius:1% 50% 1% 1%;
@@ -58,9 +68,11 @@
  -webkit-transform: rotate(-45deg);
 }
 #base-lines{
-  position:absolute;
-  top: 324px;
-  left: 442px;
+  position:relative;
+  top: 60%;
+  left: 50%;
+  margin-top: -188%;
+  margin-left: -106.4%;
   height:420px;
   width:340px;
   border-left:2px solid white;
@@ -68,7 +80,7 @@
   -webkit-transform: rotate(-45deg);
 }
 #in-field-grass{
-  position:absolute;
+  position:relative;
   top: 617px;
   left: 575px;
   height:130px;
@@ -82,7 +94,7 @@
   top: 670px;
   left:750px;
   background-color: white;
-  position:absolute;
+  position:relative;
   height:13px;
   width:13px;
   -webkit-transform: rotate(-45deg);
@@ -94,7 +106,7 @@
   top:570px;
   left:635px;
   background-color: white;
-  position:absolute;
+  position:relative;
   height:8px;
   width:8px;
   -webkit-transform: rotate(-45deg);
@@ -106,7 +118,7 @@
   top: 675px;
   left:525px;
   background-color: white;
-  position:absolute;
+  position:relative;
   height:13px;
   width:13px;
   -webkit-transform: rotate(-45deg);
@@ -121,7 +133,7 @@
 
 
 #home-plate{
-  position:absolute;
+  position:relative;
   height:7px;
   width:13px;
   top:775px;
@@ -146,7 +158,7 @@ margin-left: -9.5px;
 }
 
 #pitchers-mound{ 
-  position:absolute;
+  position:relative;
   top: 652px;
   left: 617.5px;
   height: 50px;
@@ -167,7 +179,7 @@ margin-left: -9.5px;
 }
 
 .half-circle{    
-  position:absolute;
+  position:relative;
   height:20px;
   width: 20px;
   -webkit-transform: rotate(-45deg);
@@ -190,7 +202,7 @@ margin-left: -9.5px;
   border-radius:1% 1% 1% 100%;
 }
 .batters-box{
-  position:absolute;
+  position:relative;
   height:25px;
   width: 15px;
   border:2px solid white;
@@ -216,7 +228,7 @@ box-shadow: -1px 0 #836539; /* Cover up the base line */
   width: 8px;
 }
 #batting-circle{ 
-  position:absolute;
+  position:relative;
   top:765px;
   left:606px;
   height:70px;
