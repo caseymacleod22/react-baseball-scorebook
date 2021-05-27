@@ -22,14 +22,6 @@
   margin-top: 20px;
 }
 
-.outsandcount {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  /* margin-top: 50px;
-  margin-left: 37%; */
-}
-
 #balls, #strikes, #outs {
   padding-left: 20px;
   padding-right: 20px;
@@ -94,12 +86,9 @@ left: 50%;
 
 #first-base{
   position: relative;
-  top: 50%;
-  left:50%;
-  margin-top: -50%;
-  margin-left: -100%;
+  top: -57px;
+  left:-49px;
   background-color: white;
-  position:relative;
   height:13px;
   width:13px;
   -webkit-transform: rotate(-45deg);
@@ -109,14 +98,11 @@ left: 50%;
 }
 #second-base{
   position: relative;
-  top:50%;
-  left:50%;
-  margin-top: 30%;
-  margin-left: -100%;
+  top:-158px;
+  left: -175px;
   background-color: white;
-  position:relative;
-  height:8px;
-  width:8px;
+  height:13px;
+  width:13px;
   -webkit-transform: rotate(-45deg);
   border:1px solid white;
   background-color:white;
@@ -124,12 +110,9 @@ left: 50%;
 }
 #third-base{
   position: relative;
-  top: 50%;
-  left:50%;
-  margin-top: -50%;
-  margin-left: -100%;
-  background-color: white;
-  position:relative;
+  top: -52px;
+  left:-295px;
+  backgrond-color: white;
   height:13px;
   width:13px;
   -webkit-transform: rotate(-45deg);
@@ -196,7 +179,7 @@ margin-left: -9.5px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 4.5%;
+  margin-top: 5%;
   margin-left: -52.4%;
   height: 5px;
   width: 16px;
@@ -216,19 +199,11 @@ margin-left: -9.5px;
   border:1px solid #836539;
   background-color:#836539;
 }
-#third-circle{
-  position: relative;
-  top:50%;
-  left:50%;
-  margin-top: 18%;
-  margin-left: -76%;
-  border-radius:1% 1% 100% 1%;
-}
 #first-circle{
   position: relative;
   top:50%;
   left:50%;
-  margin-top: -47%;
+  margin-top: -18%;
   margin-left: -29%;
   border-radius:100% 1% 1% 1%;
 }
@@ -239,6 +214,14 @@ margin-left: -9.5px;
   margin-top: -30%;
   margin-left: -52.9%;
   border-radius:1% 1% 1% 100%;
+}
+#third-circle{
+  position: relative;
+  top:50%;
+  left:50%;
+  margin-top: 18%;
+  margin-left: -76%;
+  border-radius:1% 1% 100% 1%;
 }
 .batters-box{
   position:relative;
@@ -256,7 +239,7 @@ margin-left: -9.5px;
   box-shadow: 1px 0 #836539;
   top: 50%;
   left:50%;
-  margin-top: 25%;
+  margin-top: 24%;
   margin-left: -54%;
   width: 8px;
 }
