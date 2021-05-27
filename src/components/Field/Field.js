@@ -16,9 +16,9 @@ function Field () {
     <div id="base-lines"></div>
     <div id="pitchers-mound"></div>
     <div id="pitchers-rubber"></div>
-    <FirstBase />
-    <SecondBase />
-    <ThirdBase />
+    <FirstBase id="first-base"/>
+    <SecondBase id="second-base"/>
+    <ThirdBase id="third-base"/>
     <div id="first-circle" className="half-circle"></div>
     <div id="second-circle" className="half-circle"></div>
     <div id="third-circle" className="half-circle"></div>

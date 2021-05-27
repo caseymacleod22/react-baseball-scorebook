@@ -36,7 +36,7 @@
 }
 
 #stadium {
-position: fixed;
+position: absolute;
 top: 50%;
 left: 50%;
 }
@@ -71,7 +71,7 @@ left: 50%;
   position:relative;
   top: 50%;
   left: 50%;
-  margin-top: -148%;
+  margin-top: -146%;
   margin-left: -106.3%;
   height:420px;
   width:340px;
@@ -80,7 +80,7 @@ left: 50%;
   -webkit-transform: rotate(-45deg);
 }
 #in-field-grass{
-  position:relative;
+  position: relative;
   top: 50%;
   left: 50%;
   margin-top: -40%;
@@ -96,8 +96,8 @@ left: 50%;
   position: relative;
   top: 50%;
   left:50%;
-  margin-top: 30%;
-  margin-left: -81.2%;
+  margin-top: -50%;
+  margin-left: -100%;
   background-color: white;
   position:relative;
   height:13px;
@@ -170,8 +170,10 @@ margin-left: -9.5px;
 
 #pitchers-mound{ 
   position:relative;
-  top: 652px;
-  left: 617.5px;
+  top: 50%;
+  left: 50%;
+  margin-top: -20%;
+  margin-left: -57%;
   height: 50px;
   width: 50px;
   border-radius:100% 100% 100% 100%;
@@ -181,8 +183,10 @@ margin-left: -9.5px;
 }
 #pitchers-rubber{ 
   position: absolute;
-  top: 674px;
-  left: 634.5px;
+  top: 50%;
+  left: 50%;
+  margin-top: 12.9%;
+  margin-left: -52.4%;
   height: 5px;
   width: 16px;
   border: 1px solid white;
@@ -191,6 +195,10 @@ margin-left: -9.5px;
 
 .half-circle{    
   position:relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -50%;
+  margin-left: -100%;
   height:20px;
   width: 20px;
   -webkit-transform: rotate(-45deg);
@@ -198,18 +206,27 @@ margin-left: -9.5px;
   background-color:#836539;
 }
 #third-circle{
-  top:674px;
-  left:544px;
+  position: relative;
+  top:50%;
+  left:50%;
+  margin-top: 17%;
+  margin-left: -76%;
   border-radius:1% 1% 100% 1%;
 }
 #first-circle{
-  top:672px;
-  left:718px;
+  position: relative;
+  top:50%;
+  left:50%;
+  margin-top: -48%;
+  margin-left: -29%;
   border-radius:100% 1% 1% 1%;
 }
 #second-circle{
-  top:590px;
-  left:629px;
+  position: relative;
+  top:50%;
+  left:50%;
+  margin-top: -28%;
+  margin-left: -52.9%;
   border-radius:1% 1% 1% 100%;
 }
 .batters-box{
