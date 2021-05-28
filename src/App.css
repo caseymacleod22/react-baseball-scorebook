@@ -26,6 +26,14 @@
   display: flex;
 }
 
+#awayteams, #hometeams {
+  display: flex;
+  justify-content: flex-start;
+  width: 160px;
+  height: 19px;
+  margin-left: 250px;
+}
+
 #balls, #strikes, #outs {
   padding-left: 20px;
   padding-right: 20px;

@@ -13,6 +13,8 @@ import SeventhInning from './components/SeventhInning/SeventhInning'
 import EigthInning from './components/EigthInning/EightInning'
 import NinthInning from './components/NinthInning/NinthInning'
 import Field from './components/Field/Field'
+import AwayTeams from './components/AwayTeams/AwayTeams'
+import HomeTeams from './components/HomeTeams/HomeTeams'
 // import FirstBase from './components/FirstBase/FirstBase'
 // import SecondBase from './components/SecondBase/SecondBase'
 // import ThirdBase from './components/ThirdBase/ThirdBase'
@@ -21,6 +23,8 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <AwayTeams />
+      <HomeTeams />
       <div className='container'>
           <FirstInning />
           <SecondInning />
