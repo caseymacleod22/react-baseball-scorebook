@@ -13,19 +13,14 @@ import SeventhInning from './components/SeventhInning/SeventhInning'
 import EigthInning from './components/EigthInning/EightInning'
 import NinthInning from './components/NinthInning/NinthInning'
 import Field from './components/Field/Field'
-import AwayTeams from './components/AwayTeams/AwayTeams'
-import HomeTeams from './components/HomeTeams/HomeTeams'
-// import FirstBase from './components/FirstBase/FirstBase'
-// import SecondBase from './components/SecondBase/SecondBase'
-// import ThirdBase from './components/ThirdBase/ThirdBase'
+import Teams from './components/Teams/Teams'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <AwayTeams />
-      <HomeTeams />
+        <Header />
       <div className='container'>
+          <Teams />
           <FirstInning />
           <SecondInning />
           <ThirdInning />
@@ -44,9 +39,6 @@ function App() {
           </div>
       </div>  
         <Field />
-        {/* <FirstBase />
-        <SecondBase />
-        <ThirdBase /> */}
     </div>
   );
 }
