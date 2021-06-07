@@ -16,6 +16,10 @@
   height: 40px;
 }
 
+.totals {
+  padding-left: 10px;
+}
+
 .outscontainer {
   display: flex;
   justify-content: center;
@@ -45,6 +49,19 @@
 position: absolute;
 top: 50%;
 left: 50%;
+}
+
+.awaylineup {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.homelineup {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+  width: 120px;
 }
 
 #field{ 

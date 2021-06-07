@@ -15,6 +15,8 @@ import NinthInning from './components/NinthInning/NinthInning'
 import Runs from './components/Runs/Runs'
 import Hits from './components/Hits/Hits'
 import Errors from './components/Errors/Errors'
+import AwayLineup from './components/AwayLineup/AwayLineup'
+import HomeLineup from './components/HomeLineup/HomeLineup'
 import Field from './components/Field/Field'
 import Teams from './components/Teams/Teams'
 
@@ -44,6 +46,8 @@ function App() {
             <Outs />
           </div>
       </div>  
+        <AwayLineup />
+        <HomeLineup />
         <Field />
     </div>
   );
