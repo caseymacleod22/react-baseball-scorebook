@@ -12,6 +12,7 @@ import SixthInning from './components/SixthInning/SixthInning'
 import SeventhInning from './components/SeventhInning/SeventhInning'
 import EigthInning from './components/EigthInning/EightInning'
 import NinthInning from './components/NinthInning/NinthInning'
+import Errors from './components/Errors/Errors'
 import Field from './components/Field/Field'
 import Teams from './components/Teams/Teams'
 
@@ -30,6 +31,7 @@ function App() {
           <SeventhInning />
           <EigthInning />
           <NinthInning />
+          <Errors />
       </div>
         <div className='outscontainer'>
           <div className='outsandcount'>
