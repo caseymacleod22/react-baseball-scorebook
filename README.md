@@ -8,8 +8,9 @@
 - Netlify (deployment)
 
 ## ⚙️ Features
-- ALlows users to score the game pitch by pitch by tracking balls, strikes and outs.
+- Allows users to score the game pitch by pitch by tracking balls, strikes and outs.
 - Full 9 inning scoreboard to track both teams runs by inning, hits and errors.
+- Drop down menu featuring every MLB team.
 - Lineup card for both home and away teams.
 - Full baseball diamond made entirely in CSS.
 - Interactive bases that change color on click to signify a runner is occupying that base.
