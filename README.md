@@ -13,3 +13,16 @@
 - Lineup card for both home and away teams.
 - Full baseball diamond made entirely in CSS.
 - Interactive bases that change color on click to signify a runner is occupying that base.
+
+## Screenshots
+Full Scorebook
+![scorebook](./public/images/scorebook.png)
+
+## Future Improvements
+
+- Allow user to import lineups from live games.
+- Track individual players results at the plate (i.e 1-3 Groundout, Solo HR, Lineout)
+- Add more interaction to the field.
+
+## ⚾️✏️ Check It Out!
+[Start Scoring Here!](https://baseball-scorebook.netlify.app/)
