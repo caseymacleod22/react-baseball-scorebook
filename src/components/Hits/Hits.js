@@ -8,4 +8,4 @@ function Hits () {
     )
 }
 
-// export default Hits
+export default Hits
