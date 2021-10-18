@@ -15,4 +15,4 @@ function HomeLineup () {
     )
 }
 
-// export default HomeLineup
+export default HomeLineup
